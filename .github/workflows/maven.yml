@@ -30,7 +30,8 @@ jobs:
         with:
           name: myapp
           path: target/*.war
-deploy:
+
+  deploy:
     runs-on: ubuntu-latest
     needs: build
     environment: production
